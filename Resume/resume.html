@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Template</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Start Header of Resume -->
+    <div class="container">
+        <div class="header">
+          <div class="header-content">
+            <div class="header-text">
+               <h1><span id="resName"></span></h1>
+               <h2><span id="resDesig"></span></h2>
+            </div>
+            <div class="profile-photo">
+               <img id="resume-image" src="./image/mypic.png" alt="Profile Photo">
+            </div>
+          </div>
+        </div>
+    </div>
+    <!-- End Header -->
+
+    <!-- Start-left-Sidebar -->
+  <div class="container">
+    <div class="sidebar">
+        <!-- contact section -->
+      <div class="contact">
+          <h3><strong>CONTACT-DETAIL</strong></h3>
+          <p>Phone<br><span id="resPhone"></span></p>
+          <p>Email<br><span id="resEmail"></span></p>
+          <p>Home<br><span id="res-Address"></span></p>
+      </div>
+      <!-- contact section End -->
+
+      <!-- Start Education Seaction -->
+      <div class="Education">
+          <h3><strong>EDUCATION</strong></h3>
+          <p><span id="degree"></span></p><br>
+          <p><span id="High-qualification"></span></p><br>
+          <p><span id="secondry-qualification"></span></p>
+      </div>
+
+      <div class="skills">
+          <h3>SKILL/Experties</h3>
+          <p><span id="skill-1"></p>
+          <div class="skill-bar"><div class="level" style="width: 80%;">80%</div></div></span>
+          
+          <p><span id="skill-2"></span></p>
+          <div class="skill-bar"><div class="level" style="width: 20%;"></div></div>
+          
+          <p><span id="skill-3"></span></p>
+          <div class="skill-bar"><div class="level" style="width: 20%;"></div></div>
+          
+          <p><span id="skill-4"></span></p>
+          <div class="skill-bar"><div class="level" style="width: 40%;"></div></div>
+          
+          
+      </div>
+
+      <div class="language">
+          <h3>LANGUAGE</h3>
+          <ul>
+            <li><span id="lang-1"></span></li>
+            <li><span id="lang-2"></span></li>
+          </ul>
+      </div>
+    </div>
+
+    <!-- End-left-side-bar -->
+
+    <!-- Start Right Main Content -->
+    <div class="main-content">
+        
+      <section class="about-me">
+        <h3>ABOUT ME</h3>
+        <p>
+         <span id="about"></span>
+        </p>
+        <hr>
+      </section>
+
+                            <!-- Experience Section Start -->
+      <section id="Experience" class="work-experience">
+        <h3>WORK EXPERIENCE</h3>
+        <div>
+          <p><strong> <em>Compony:</em> <span id="company"></span> <span id="copany-location"></span> </strong><br>
+            Desination: <span id="Designation">:</span>  <span id="start-year"></span> <span id="end-year"></span></p>
+            <ul>
+                <li><span id="Achievements1"></span></li>
+                <li><span id="Achievements2"></span></li>
+                <li><span id="Achievements3"></span></li>
+                
+                <li>Bank reconciliation maintain bank account daily biases
+                    receiving payment deposit into bank. </li>
+            </ul>
+            <hr>
+        </div>
+        <h3>WORK EXPERIENCE</h3>
+        <div>
+          <p><strong><em>Compony:</em> Residential construction work | Nazimabad karachi. <br> 
+            Desiniation: Account</strong> <span>2017</span> <span>2020-</span>
+            <ul>
+                <li>Residential plot construction look after All construction 
+                    work.</li>
+                <li>Biling record Maintain, creation invoice.</li>
+                <li>Account Receivable and payable account work maintain.</li>
+                <li>Legar and bank reconciliation. </li>
+            </ul>
+            <hr>
+        </div>
+        <div class="UI-Ux-DESIGNER">
+          <p><strong>UI/UX DESIGNER</strong> <span>2024-PRESENT</span><br>GIAIC</p>
+          <p>I am focusing on GIA IAC where computer science intersects with social science, under the guidance of Sir Zia, Sir Ameen Alam, and Daniyal Nagori.</p>
+          <hr>
+        </div>
+      </section>
+                            <!-- Experience Section End -->
+                            <!-- Education Section Start -->
+      <section class="education">
+        <h3>EDUCATION</h3>
+        <div>
+         <ul>
+            <li> B.com from karachi university.</li>
+            <li>IN Year 2003, Intermediate Commerce from Karachi Board</li>
+            <li>IN Year 1999, Metric Science from Govt.S.M Public School.</li>
+         </ul>
+         <hr>
+        </div>
+      </section>
+      <!-- End Refrence Section -->
+      <!-- REFRANCE SECTION START -->
+       <section id="ref" class="refrence">
+          <h3>Refrence</h3>
+          <div>
+              <p>Available upon request</p>
+          </div>
+  
+       </section>
+    </div>
+  </div>
+
+  <div class="button">
+        <button id="print_button" class="btn">Print</button>
+        <button id="edit_button" class="btn">Edit-Resume</button>
+        <a id="an" href=""> <button id="share_button" class="btn">Shareable Link</button></a>
+        <button id="copy_button" class="btn">Copy-Link</button>
+  </div>
+</body>
+<script src="resume.js"></script>
+</html>

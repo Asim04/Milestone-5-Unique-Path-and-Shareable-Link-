@@ -1,0 +1,143 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mile_stone 02</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="form" class="box" action="https://httpbin.org/post"
+    method="post">
+        <div><h1>Resume Generator</h1></div>
+        <hr>
+        <div class="main-container">
+            <section class="∟"><div><h2>Personal Information</h2></div>
+               <!-- <hr> -->
+            
+               <div class="form-group">
+                   <label class="label" for="name">Your Name</label>
+                   <input class="input" type="text" name="" id="name" placeholder="Enter your full name here">
+               </div>
+           
+               <div class="form-group">
+                   <label class="label" for="desig">Job tital / Designation</label>
+                   <input class="input" type="text" name="" id="desig" placeholder="e.g Frontend Developer">
+               </div>
+           
+               <div class="form-group">
+                   <label class="label" for="contact">Your contact</label>
+                   <input class="input" type="number" name="" id="contact" placeholder="+92 344 2015004">
+               </div>
+           
+               <div class="form-group">
+                   <label class="label" for="email">Your Email</label>
+                   <input class="input" type="email" name="" id="email" placeholder="Enter you mail here e.g: Khan004@gmail.com">
+               </div>
+           
+               <div class="form-group">
+                   <label class="label" for="add">Address</label>
+                   <input class="input" type="text" name="" id="add" placeholder="e.g House no: xyz,streat, karchi, pakistan ">
+               </div>
+
+               <div class="form-group">
+                <label class="label" for="pic">Profile Picture:</label>
+                <input class="input" type="file" name="" id="pic" placeholder=" ">
+            </div>
+
+
+
+
+
+               <!-- Education section start -->
+           
+               <div><h2>Education</h2></div>
+           
+           
+               <div class="form-group">
+                   <label class="label" for="edu">Dgree</label>
+                   <input class="input" type="text" name="" id="edu" placeholder="e.g GIAIC ">
+               </div>
+           
+               <div class="form-group">
+                   <label class="label" for="hq">ٰHigher Qualification</label>
+                   <input class="input" type="text" name="" id="hq" placeholder="e.g Intermediate ">
+               </div>
+           
+               <div class="form-group">
+                   <label class="label" for="sq">ٰSecondry Qualification</label>
+                   <input class="input" type="text" name="" id="sq" placeholder="e.g Metric Science ">
+               </div>
+           
+               <div><h2>Skill/Experties</h2></div>
+               <div class="form-group">
+                   <label class="label" for="skill">ٰSkill</label>
+                   <input class="input mb-20" type="text" name="" id="skill1" placeholder="e.g TypeScript ">
+                   <label class="label" for="skill">ٰSkill</label>
+                   <input class="input mb-20" type="text" name="" id="skill2" placeholder="e.g Java Script ">
+                   <label class="label" for="skill">ٰSkill</label>
+                   <input class="input mb-20" type="text" name="" id="skill3" placeholder="e.g Nextjs ">
+                   <label class="label" for="skill">ٰSkill</label>
+                   <input class="input mb-20" type="text" name="" id="skill4" placeholder="e.g Html/Css ">
+               </div>
+           
+               <div><h2>Language</h2></div>
+               <div class="form-group">
+                   <label for="lang" class="label">Language 1</label>
+                   <input class="input mb-20" type="text" name="" id="lang1" placeholder="Language 1 ">
+                   <label for="lang" class="label">Language 2</label>
+                   <input class="input mb-20" type="text" name="" id="lang2" placeholder="Language 2 ">
+               </div>
+
+            </section>
+                <!-- Sectiom 1 End -->
+
+                <!-- Section 2 Strart -->
+                 <hr style="margin-top: 30px;">
+            <Section class="section-2">
+                <h2>Professional Information</h2>
+
+                <div class="form-group">
+                    <label class="label" for="about">About Your Self</label>
+                    <div class="form-container">
+                        <textarea name="about" id="about" rows="4" 
+                            placeholder="Enter about your self in  Four line">
+                        </textarea>
+                    </div>
+                </div>
+
+                <div><h2>Experience</h2></div>
+               <div class="form-group">               
+                        <label class="label" for="styear">Start Year</label>
+                        <input class="input" type="date" id="styear" placeholder="e,g 2003">
+
+                        <label class="label" for="edyear">End Year</label>
+                        <input class="input" type="date" id="edyear" placeholder="e,g 2004">
+                        
+                        <label class="label" for="Company">Compaany:</label>
+                        <input class="input" type="text" id="company" placeholder="e,g Xyz Compony">
+                        
+                        <label class="label" for="Com-lucation">Compaany locstion:</label>
+                        <input class="input" type="text" id="Com-lucation" placeholder="Karchi etc">
+                        
+                        <label class="label" for="job-tital">Job tital:/Designation:</label>
+                        <input class="input" type="text" id="job-tital" placeholder="Web-developer">
+                        
+                        <label class="label" for="achv">Achievements:</label>
+                        <input style="margin-bottom: 10px;" class="input  mb-20" type="text" id="achv-1" placeholder="Enter your Achiebements-1 here">
+                        <input style="margin-bottom: 10px;" class="input  mb-20" type="text" id="achv-2" placeholder="Enter your Achiebements-2 here">
+                        <input style="margin-bottom: 10px;" class="input  mb-20" type="text" id="achv-3" placeholder="Enter your Achiebements-3 here">
+
+                </div>
+                <div class="button"><input type="submit" id="submitbtn"></div>
+            </Section>  
+           
+        </div>
+
+
+
+        
+    </form>
+    
+</body>
+<script src="script.js"></script>
+</html>

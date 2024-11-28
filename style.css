@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    background: linear-gradient(160deg,
+    rgb(25 20 98) 0%,
+    rgba(22, 22, 156, 1) 35%,
+    rgb(9, 108, 128) 100%
+ );
+}
+
+.box{
+    
+    width: 90%;
+    padding: 2%;
+    margin: 30px auto;
+    background-color: rgba(33, 34, 35, 0.9);
+    border-radius: 15px;
+    box-shadow: 5px 5px 4px lightgray;
+    
+}
+h1{
+    color: aliceblue;
+    font-weight: 900;
+    text-align: center;
+    
+}
+
+.main-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* margin: 0 5px; */
+}
+
+.section-1{
+    width: 35%;
+    /* background-color: #4090db; */
+}
+
+.section-2{
+    width: 35%;
+}
+
+
+
+h2,h3{
+    color: aliceblue;
+    margin-bottom: 10px;
+    font-weight: 400;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: .5px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+hr{
+    margin-bottom: 30px;
+}
+
+.form-group{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+
+
+.label{
+    font-size: 18px;
+    margin: 5px 0;
+    color: aliceblue;
+    
+    
+}
+
+.input{
+    /* width: 35%; */
+    font-size: 15px;
+    padding: 8px;
+    
+    border-radius: 10px;
+    color:  white;
+    outline: none;
+    text-align: center;
+    border: 2px solid #4090db;
+    background: none;
+    /* margin: 18px auto; */
+    /* margin: auto; */
+    transition: 0.3s;
+}
+
+.input[type="number"]:focus,
+.input[type="email"]:focus,
+.input[type="text"]:focus{
+    border-color: #1feb74;
+    width: 110%;
+}
+
+.mb-20{
+    margin-bottom: 8px;
+}
+
+.button input{
+    margin-top: 40px;
+    width: 100%;
+    padding: 10px 20px;
+    font-size:x-large;
+    border-radius: 15px;
+    background: none;
+    outline: none;
+    border: 1px solid #4090db;
+    color: aliceblue;
+    cursor: pointer;
+
+    &:hover{
+        color: white;
+        background-color: #1feb74;
+    }
+
+    &:active{
+        transform: scale(0.098∟ee♦♦);
+    }
+
+  
+}
+
+/* RESPONSIVE Mobile Device */
+
+@media (max-width:768px){
+    .main-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-1, .section-2{
+        width: 80%;
+    }
+
+    .input, .button input{
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px){
+    h1{
+        font-size: 24px;
+    }
+
+    .input{
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .button input{
+        font-size: large;
+    }
+
+}
